@@ -1,7 +1,17 @@
 {
   "ethereum": {
-    "time": 1705276800000,
+    "time": 1746403200000,
     "price": 2650.42,
     "marketCap": 318500000000
+  },
+  "basedai": {
+    "time": 1746403200000,
+    "price": 12.85,
+    "marketCap": 128500000
+  },
+  "pepecoin-2": {
+    "time": 1746403200000,
+    "price": 0.00042,
+    "marketCap": 42000000
   }
 }

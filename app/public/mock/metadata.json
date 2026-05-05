@@ -52,5 +52,59 @@
     "owner": "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
     "isActivated": true,
     "tokensClaimed": true
+  },
+  "7": {
+    "name": "CogniChain",
+    "ticker": "COGNI",
+    "metaDataUrl": "",
+    "imageUrl": "",
+    "owner": "0xABCDEF1234567890ABCDEF1234567890ABCDEF12",
+    "isActivated": true,
+    "tokensClaimed": false
+  },
+  "8": {
+    "name": "TensorFlow Node",
+    "ticker": "TFLOW",
+    "metaDataUrl": "",
+    "imageUrl": "",
+    "owner": "0xFEDCBA9876543210FEDCBA9876543210FEDCBA98",
+    "isActivated": true,
+    "tokensClaimed": false
+  },
+  "9": {
+    "name": "HyperMind",
+    "ticker": "HYPR",
+    "metaDataUrl": "",
+    "imageUrl": "",
+    "owner": "0x0123456789ABCDEF0123456789ABCDEF01234567",
+    "isActivated": false,
+    "tokensClaimed": false
+  },
+  "10": {
+    "name": "OmniLearn",
+    "ticker": "OMNI",
+    "metaDataUrl": "",
+    "imageUrl": "",
+    "owner": "0xAA00AA00AA00AA00AA00AA00AA00AA00AA00AA00",
+    "isActivated": true,
+    "tokensClaimed": true
+  },
+  "11": {
+    "name": "NexusAI",
+    "ticker": "NEXUS",
+    "metaDataUrl": "",
+    "imageUrl": "",
+    "owner": "0xDD00DD00DD00DD00DD00DD00DD00DD00DD00DD00",
+    "isActivated": true,
+    "tokensClaimed": false
+  },
+  "12": {
+    "name": "CortexNet",
+    "ticker": "CRTX",
+    "metaDataUrl": "",
+    "imageUrl": "",
+    "owner": "0xFF00FF00FF00FF00FF00FF00FF00FF00FF00FF00",
+    "isActivated": true,
+    "tokensClaimed": true
   }
 }

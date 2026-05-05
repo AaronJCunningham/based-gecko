@@ -7,29 +7,51 @@
     "chartData": {
       "pairAddress": "0xB4e16d0168e52d35CaCD2c6185b44281Ec28C9Dc",
       "priceHistory": [
-        { "timestamp": "2025-01-15T00:00:00Z", "priceInEth": 0.000142 },
-        { "timestamp": "2025-01-14T00:00:00Z", "priceInEth": 0.000138 },
-        { "timestamp": "2025-01-13T00:00:00Z", "priceInEth": 0.000135 },
-        { "timestamp": "2025-01-12T00:00:00Z", "priceInEth": 0.000131 },
-        { "timestamp": "2025-01-11T00:00:00Z", "priceInEth": 0.000128 },
-        { "timestamp": "2025-01-10T00:00:00Z", "priceInEth": 0.000125 },
-        { "timestamp": "2025-01-09T00:00:00Z", "priceInEth": 0.000120 },
-        { "timestamp": "2025-01-08T00:00:00Z", "priceInEth": 0.000118 }
+        { "timestamp": "2026-05-05T00:00:00Z", "priceInEth": 0.000152 },
+        { "timestamp": "2026-05-04T00:00:00Z", "priceInEth": 0.000148 },
+        { "timestamp": "2026-05-03T00:00:00Z", "priceInEth": 0.000145 },
+        { "timestamp": "2026-05-02T00:00:00Z", "priceInEth": 0.000140 },
+        { "timestamp": "2026-05-01T00:00:00Z", "priceInEth": 0.000138 },
+        { "timestamp": "2026-04-30T00:00:00Z", "priceInEth": 0.000142 },
+        { "timestamp": "2026-04-29T00:00:00Z", "priceInEth": 0.000135 },
+        { "timestamp": "2026-04-28T00:00:00Z", "priceInEth": 0.000130 },
+        { "timestamp": "2026-04-27T00:00:00Z", "priceInEth": 0.000128 },
+        { "timestamp": "2026-04-26T00:00:00Z", "priceInEth": 0.000125 },
+        { "timestamp": "2026-04-25T00:00:00Z", "priceInEth": 0.000122 },
+        { "timestamp": "2026-04-24T00:00:00Z", "priceInEth": 0.000118 },
+        { "timestamp": "2026-04-23T00:00:00Z", "priceInEth": 0.000120 },
+        { "timestamp": "2026-04-22T00:00:00Z", "priceInEth": 0.000115 },
+        { "timestamp": "2026-04-21T00:00:00Z", "priceInEth": 0.000112 },
+        { "timestamp": "2026-04-20T00:00:00Z", "priceInEth": 0.000110 },
+        { "timestamp": "2026-04-19T00:00:00Z", "priceInEth": 0.000108 },
+        { "timestamp": "2026-04-18T00:00:00Z", "priceInEth": 0.000105 },
+        { "timestamp": "2026-04-17T00:00:00Z", "priceInEth": 0.000102 },
+        { "timestamp": "2026-04-16T00:00:00Z", "priceInEth": 0.000098 },
+        { "timestamp": "2026-04-15T00:00:00Z", "priceInEth": 0.000095 },
+        { "timestamp": "2026-04-14T00:00:00Z", "priceInEth": 0.000092 },
+        { "timestamp": "2026-04-13T00:00:00Z", "priceInEth": 0.000090 },
+        { "timestamp": "2026-04-12T00:00:00Z", "priceInEth": 0.000088 },
+        { "timestamp": "2026-04-11T00:00:00Z", "priceInEth": 0.000085 },
+        { "timestamp": "2026-04-10T00:00:00Z", "priceInEth": 0.000083 },
+        { "timestamp": "2026-04-09T00:00:00Z", "priceInEth": 0.000080 },
+        { "timestamp": "2026-04-08T00:00:00Z", "priceInEth": 0.000078 },
+        { "timestamp": "2026-04-07T00:00:00Z", "priceInEth": 0.000082 },
+        { "timestamp": "2026-04-06T00:00:00Z", "priceInEth": 0.000079 }
       ]
     },
     "stats": {
       "stats": {
-        "priceETH": 0.000142,
-        "marketCapETH": 42.5,
-        "liquidityETH": 12.8,
-        "volumeETH": 3.2,
-        "txs": 47,
+        "priceETH": 0.000152,
+        "marketCapETH": 45.6,
+        "liquidityETH": 14.2,
+        "volumeETH": 3.8,
+        "txs": 54,
         "recentTransactions": [
-          { "type": "Buy", "priceETH": "0.000142", "volumeETH": 0.5, "trader": "0xAb5801a7D398351b8bE11C439e05C5B3259aeC9B" },
-          { "type": "Sell", "priceETH": "0.000140", "volumeETH": 0.3, "trader": "0x1234567890abcdef1234567890abcdef12345678" },
-          { "type": "Buy", "priceETH": "0.000139", "volumeETH": 1.2, "trader": "0xde0B295669a9FD93d5F28D9Ec85E40f4cb697BAe" },
-          { "type": "Buy", "priceETH": "0.000138", "volumeETH": 0.8, "trader": "0x2222222222222222222222222222222222222222" },
-          { "type": "Sell", "priceETH": "0.000137", "volumeETH": 0.4, "trader": "0x3333333333333333333333333333333333333333" }
+          { "type": "Buy", "priceETH": "0.000152", "volumeETH": 0.5, "trader": "0xAb5801a7D398351b8bE11C439e05C5B3259aeC9B" },
+          { "type": "Sell", "priceETH": "0.000150", "volumeETH": 0.3, "trader": "0x1234567890abcdef1234567890abcdef12345678" },
+          { "type": "Buy", "priceETH": "0.000148", "volumeETH": 1.2, "trader": "0xde0B295669a9FD93d5F28D9Ec85E40f4cb697BAe" },
+          { "type": "Buy", "priceETH": "0.000145", "volumeETH": 0.8, "trader": "0x2222222222222222222222222222222222222222" },
+          { "type": "Sell", "priceETH": "0.000143", "volumeETH": 0.4, "trader": "0x3333333333333333333333333333333333333333" }
         ]
       }
     }
@@ -42,14 +64,36 @@
     "chartData": {
       "pairAddress": "0xd3d2E2692501A5c9Ca623199D38826e513033a17",
       "priceHistory": [
-        { "timestamp": "2025-01-15T00:00:00Z", "priceInEth": 0.000089 },
-        { "timestamp": "2025-01-14T00:00:00Z", "priceInEth": 0.000092 },
-        { "timestamp": "2025-01-13T00:00:00Z", "priceInEth": 0.000085 },
-        { "timestamp": "2025-01-12T00:00:00Z", "priceInEth": 0.000082 },
-        { "timestamp": "2025-01-11T00:00:00Z", "priceInEth": 0.000080 },
-        { "timestamp": "2025-01-10T00:00:00Z", "priceInEth": 0.000078 },
-        { "timestamp": "2025-01-09T00:00:00Z", "priceInEth": 0.000075 },
-        { "timestamp": "2025-01-08T00:00:00Z", "priceInEth": 0.000072 }
+        { "timestamp": "2026-05-05T00:00:00Z", "priceInEth": 0.000089 },
+        { "timestamp": "2026-05-04T00:00:00Z", "priceInEth": 0.000092 },
+        { "timestamp": "2026-05-03T00:00:00Z", "priceInEth": 0.000095 },
+        { "timestamp": "2026-05-02T00:00:00Z", "priceInEth": 0.000088 },
+        { "timestamp": "2026-05-01T00:00:00Z", "priceInEth": 0.000085 },
+        { "timestamp": "2026-04-30T00:00:00Z", "priceInEth": 0.000082 },
+        { "timestamp": "2026-04-29T00:00:00Z", "priceInEth": 0.000080 },
+        { "timestamp": "2026-04-28T00:00:00Z", "priceInEth": 0.000078 },
+        { "timestamp": "2026-04-27T00:00:00Z", "priceInEth": 0.000075 },
+        { "timestamp": "2026-04-26T00:00:00Z", "priceInEth": 0.000077 },
+        { "timestamp": "2026-04-25T00:00:00Z", "priceInEth": 0.000073 },
+        { "timestamp": "2026-04-24T00:00:00Z", "priceInEth": 0.000070 },
+        { "timestamp": "2026-04-23T00:00:00Z", "priceInEth": 0.000068 },
+        { "timestamp": "2026-04-22T00:00:00Z", "priceInEth": 0.000072 },
+        { "timestamp": "2026-04-21T00:00:00Z", "priceInEth": 0.000074 },
+        { "timestamp": "2026-04-20T00:00:00Z", "priceInEth": 0.000069 },
+        { "timestamp": "2026-04-19T00:00:00Z", "priceInEth": 0.000065 },
+        { "timestamp": "2026-04-18T00:00:00Z", "priceInEth": 0.000063 },
+        { "timestamp": "2026-04-17T00:00:00Z", "priceInEth": 0.000060 },
+        { "timestamp": "2026-04-16T00:00:00Z", "priceInEth": 0.000058 },
+        { "timestamp": "2026-04-15T00:00:00Z", "priceInEth": 0.000055 },
+        { "timestamp": "2026-04-14T00:00:00Z", "priceInEth": 0.000052 },
+        { "timestamp": "2026-04-13T00:00:00Z", "priceInEth": 0.000050 },
+        { "timestamp": "2026-04-12T00:00:00Z", "priceInEth": 0.000048 },
+        { "timestamp": "2026-04-11T00:00:00Z", "priceInEth": 0.000046 },
+        { "timestamp": "2026-04-10T00:00:00Z", "priceInEth": 0.000044 },
+        { "timestamp": "2026-04-09T00:00:00Z", "priceInEth": 0.000042 },
+        { "timestamp": "2026-04-08T00:00:00Z", "priceInEth": 0.000040 },
+        { "timestamp": "2026-04-07T00:00:00Z", "priceInEth": 0.000038 },
+        { "timestamp": "2026-04-06T00:00:00Z", "priceInEth": 0.000035 }
       ]
     },
     "stats": {
@@ -75,14 +119,36 @@
     "chartData": {
       "pairAddress": "0xA478c2975Ab1Ea89e8196811F51A7B7Ade33eB11",
       "priceHistory": [
-        { "timestamp": "2025-01-15T00:00:00Z", "priceInEth": 0.000210 },
-        { "timestamp": "2025-01-14T00:00:00Z", "priceInEth": 0.000205 },
-        { "timestamp": "2025-01-13T00:00:00Z", "priceInEth": 0.000198 },
-        { "timestamp": "2025-01-12T00:00:00Z", "priceInEth": 0.000195 },
-        { "timestamp": "2025-01-11T00:00:00Z", "priceInEth": 0.000190 },
-        { "timestamp": "2025-01-10T00:00:00Z", "priceInEth": 0.000185 },
-        { "timestamp": "2025-01-09T00:00:00Z", "priceInEth": 0.000180 },
-        { "timestamp": "2025-01-08T00:00:00Z", "priceInEth": 0.000175 }
+        { "timestamp": "2026-05-05T00:00:00Z", "priceInEth": 0.000210 },
+        { "timestamp": "2026-05-04T00:00:00Z", "priceInEth": 0.000205 },
+        { "timestamp": "2026-05-03T00:00:00Z", "priceInEth": 0.000215 },
+        { "timestamp": "2026-05-02T00:00:00Z", "priceInEth": 0.000200 },
+        { "timestamp": "2026-05-01T00:00:00Z", "priceInEth": 0.000195 },
+        { "timestamp": "2026-04-30T00:00:00Z", "priceInEth": 0.000198 },
+        { "timestamp": "2026-04-29T00:00:00Z", "priceInEth": 0.000190 },
+        { "timestamp": "2026-04-28T00:00:00Z", "priceInEth": 0.000185 },
+        { "timestamp": "2026-04-27T00:00:00Z", "priceInEth": 0.000180 },
+        { "timestamp": "2026-04-26T00:00:00Z", "priceInEth": 0.000175 },
+        { "timestamp": "2026-04-25T00:00:00Z", "priceInEth": 0.000178 },
+        { "timestamp": "2026-04-24T00:00:00Z", "priceInEth": 0.000172 },
+        { "timestamp": "2026-04-23T00:00:00Z", "priceInEth": 0.000168 },
+        { "timestamp": "2026-04-22T00:00:00Z", "priceInEth": 0.000165 },
+        { "timestamp": "2026-04-21T00:00:00Z", "priceInEth": 0.000160 },
+        { "timestamp": "2026-04-20T00:00:00Z", "priceInEth": 0.000155 },
+        { "timestamp": "2026-04-19T00:00:00Z", "priceInEth": 0.000150 },
+        { "timestamp": "2026-04-18T00:00:00Z", "priceInEth": 0.000148 },
+        { "timestamp": "2026-04-17T00:00:00Z", "priceInEth": 0.000145 },
+        { "timestamp": "2026-04-16T00:00:00Z", "priceInEth": 0.000140 },
+        { "timestamp": "2026-04-15T00:00:00Z", "priceInEth": 0.000138 },
+        { "timestamp": "2026-04-14T00:00:00Z", "priceInEth": 0.000135 },
+        { "timestamp": "2026-04-13T00:00:00Z", "priceInEth": 0.000130 },
+        { "timestamp": "2026-04-12T00:00:00Z", "priceInEth": 0.000128 },
+        { "timestamp": "2026-04-11T00:00:00Z", "priceInEth": 0.000125 },
+        { "timestamp": "2026-04-10T00:00:00Z", "priceInEth": 0.000120 },
+        { "timestamp": "2026-04-09T00:00:00Z", "priceInEth": 0.000118 },
+        { "timestamp": "2026-04-08T00:00:00Z", "priceInEth": 0.000115 },
+        { "timestamp": "2026-04-07T00:00:00Z", "priceInEth": 0.000110 },
+        { "timestamp": "2026-04-06T00:00:00Z", "priceInEth": 0.000108 }
       ]
     },
     "stats": {
@@ -109,14 +175,36 @@
     "chartData": {
       "pairAddress": "0xa2107FA5B38d9bbd2C461D6EDf11B11A50F6b974",
       "priceHistory": [
-        { "timestamp": "2025-01-15T00:00:00Z", "priceInEth": 0.000055 },
-        { "timestamp": "2025-01-14T00:00:00Z", "priceInEth": 0.000053 },
-        { "timestamp": "2025-01-13T00:00:00Z", "priceInEth": 0.000050 },
-        { "timestamp": "2025-01-12T00:00:00Z", "priceInEth": 0.000048 },
-        { "timestamp": "2025-01-11T00:00:00Z", "priceInEth": 0.000052 },
-        { "timestamp": "2025-01-10T00:00:00Z", "priceInEth": 0.000054 },
-        { "timestamp": "2025-01-09T00:00:00Z", "priceInEth": 0.000051 },
-        { "timestamp": "2025-01-08T00:00:00Z", "priceInEth": 0.000049 }
+        { "timestamp": "2026-05-05T00:00:00Z", "priceInEth": 0.000055 },
+        { "timestamp": "2026-05-04T00:00:00Z", "priceInEth": 0.000053 },
+        { "timestamp": "2026-05-03T00:00:00Z", "priceInEth": 0.000050 },
+        { "timestamp": "2026-05-02T00:00:00Z", "priceInEth": 0.000052 },
+        { "timestamp": "2026-05-01T00:00:00Z", "priceInEth": 0.000048 },
+        { "timestamp": "2026-04-30T00:00:00Z", "priceInEth": 0.000046 },
+        { "timestamp": "2026-04-29T00:00:00Z", "priceInEth": 0.000044 },
+        { "timestamp": "2026-04-28T00:00:00Z", "priceInEth": 0.000042 },
+        { "timestamp": "2026-04-27T00:00:00Z", "priceInEth": 0.000045 },
+        { "timestamp": "2026-04-26T00:00:00Z", "priceInEth": 0.000043 },
+        { "timestamp": "2026-04-25T00:00:00Z", "priceInEth": 0.000040 },
+        { "timestamp": "2026-04-24T00:00:00Z", "priceInEth": 0.000038 },
+        { "timestamp": "2026-04-23T00:00:00Z", "priceInEth": 0.000036 },
+        { "timestamp": "2026-04-22T00:00:00Z", "priceInEth": 0.000035 },
+        { "timestamp": "2026-04-21T00:00:00Z", "priceInEth": 0.000033 },
+        { "timestamp": "2026-04-20T00:00:00Z", "priceInEth": 0.000031 },
+        { "timestamp": "2026-04-19T00:00:00Z", "priceInEth": 0.000030 },
+        { "timestamp": "2026-04-18T00:00:00Z", "priceInEth": 0.000028 },
+        { "timestamp": "2026-04-17T00:00:00Z", "priceInEth": 0.000027 },
+        { "timestamp": "2026-04-16T00:00:00Z", "priceInEth": 0.000025 },
+        { "timestamp": "2026-04-15T00:00:00Z", "priceInEth": 0.000024 },
+        { "timestamp": "2026-04-14T00:00:00Z", "priceInEth": 0.000022 },
+        { "timestamp": "2026-04-13T00:00:00Z", "priceInEth": 0.000020 },
+        { "timestamp": "2026-04-12T00:00:00Z", "priceInEth": 0.000019 },
+        { "timestamp": "2026-04-11T00:00:00Z", "priceInEth": 0.000018 },
+        { "timestamp": "2026-04-10T00:00:00Z", "priceInEth": 0.000017 },
+        { "timestamp": "2026-04-09T00:00:00Z", "priceInEth": 0.000016 },
+        { "timestamp": "2026-04-08T00:00:00Z", "priceInEth": 0.000015 },
+        { "timestamp": "2026-04-07T00:00:00Z", "priceInEth": 0.000014 },
+        { "timestamp": "2026-04-06T00:00:00Z", "priceInEth": 0.000013 }
       ]
     },
     "stats": {
@@ -149,14 +237,36 @@
     "chartData": {
       "pairAddress": "0x0d4a11d5EEaaC28EC3F61d100daF4d40471f1852",
       "priceHistory": [
-        { "timestamp": "2025-01-15T00:00:00Z", "priceInEth": 0.000320 },
-        { "timestamp": "2025-01-14T00:00:00Z", "priceInEth": 0.000315 },
-        { "timestamp": "2025-01-13T00:00:00Z", "priceInEth": 0.000310 },
-        { "timestamp": "2025-01-12T00:00:00Z", "priceInEth": 0.000305 },
-        { "timestamp": "2025-01-11T00:00:00Z", "priceInEth": 0.000300 },
-        { "timestamp": "2025-01-10T00:00:00Z", "priceInEth": 0.000295 },
-        { "timestamp": "2025-01-09T00:00:00Z", "priceInEth": 0.000290 },
-        { "timestamp": "2025-01-08T00:00:00Z", "priceInEth": 0.000285 }
+        { "timestamp": "2026-05-05T00:00:00Z", "priceInEth": 0.000320 },
+        { "timestamp": "2026-05-04T00:00:00Z", "priceInEth": 0.000315 },
+        { "timestamp": "2026-05-03T00:00:00Z", "priceInEth": 0.000325 },
+        { "timestamp": "2026-05-02T00:00:00Z", "priceInEth": 0.000310 },
+        { "timestamp": "2026-05-01T00:00:00Z", "priceInEth": 0.000305 },
+        { "timestamp": "2026-04-30T00:00:00Z", "priceInEth": 0.000300 },
+        { "timestamp": "2026-04-29T00:00:00Z", "priceInEth": 0.000295 },
+        { "timestamp": "2026-04-28T00:00:00Z", "priceInEth": 0.000290 },
+        { "timestamp": "2026-04-27T00:00:00Z", "priceInEth": 0.000285 },
+        { "timestamp": "2026-04-26T00:00:00Z", "priceInEth": 0.000288 },
+        { "timestamp": "2026-04-25T00:00:00Z", "priceInEth": 0.000280 },
+        { "timestamp": "2026-04-24T00:00:00Z", "priceInEth": 0.000275 },
+        { "timestamp": "2026-04-23T00:00:00Z", "priceInEth": 0.000270 },
+        { "timestamp": "2026-04-22T00:00:00Z", "priceInEth": 0.000268 },
+        { "timestamp": "2026-04-21T00:00:00Z", "priceInEth": 0.000265 },
+        { "timestamp": "2026-04-20T00:00:00Z", "priceInEth": 0.000260 },
+        { "timestamp": "2026-04-19T00:00:00Z", "priceInEth": 0.000255 },
+        { "timestamp": "2026-04-18T00:00:00Z", "priceInEth": 0.000250 },
+        { "timestamp": "2026-04-17T00:00:00Z", "priceInEth": 0.000248 },
+        { "timestamp": "2026-04-16T00:00:00Z", "priceInEth": 0.000245 },
+        { "timestamp": "2026-04-15T00:00:00Z", "priceInEth": 0.000240 },
+        { "timestamp": "2026-04-14T00:00:00Z", "priceInEth": 0.000235 },
+        { "timestamp": "2026-04-13T00:00:00Z", "priceInEth": 0.000230 },
+        { "timestamp": "2026-04-12T00:00:00Z", "priceInEth": 0.000228 },
+        { "timestamp": "2026-04-11T00:00:00Z", "priceInEth": 0.000225 },
+        { "timestamp": "2026-04-10T00:00:00Z", "priceInEth": 0.000220 },
+        { "timestamp": "2026-04-09T00:00:00Z", "priceInEth": 0.000218 },
+        { "timestamp": "2026-04-08T00:00:00Z", "priceInEth": 0.000215 },
+        { "timestamp": "2026-04-07T00:00:00Z", "priceInEth": 0.000210 },
+        { "timestamp": "2026-04-06T00:00:00Z", "priceInEth": 0.000205 }
       ]
     },
     "stats": {
@@ -169,8 +279,238 @@
         "recentTransactions": [
           { "type": "Buy", "priceETH": "0.000320", "volumeETH": 3.2, "trader": "0xdddddddddddddddddddddddddddddddddddddddd" },
           { "type": "Buy", "priceETH": "0.000318", "volumeETH": 1.8, "trader": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee" },
-          { "type": "Sell", "priceETH": "0.000316", "volumeETH": 2.4, "trader": "0xffffffffffffffffffffffffffffffffffffffff" },
-          { "type": "Buy", "priceETH": "0.000315", "volumeETH": 0.9, "trader": "0x1111111111111111111111111111111111111111" }
+          { "type": "Sell", "priceETH": "0.000316", "volumeETH": 2.4, "trader": "0xffffffffffffffffffffffffffffffffffffffff" }
+        ]
+      }
+    }
+  },
+  {
+    "brainNumber": "7",
+    "brainAddress": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "hasLiquidity": true,
+    "pairAddress": "0xB4e16d0168e52d35CaCD2c6185b44281Ec28C9Dc",
+    "chartData": {
+      "pairAddress": "0xB4e16d0168e52d35CaCD2c6185b44281Ec28C9Dc",
+      "priceHistory": [
+        { "timestamp": "2026-05-05T00:00:00Z", "priceInEth": 0.000180 },
+        { "timestamp": "2026-05-04T00:00:00Z", "priceInEth": 0.000175 },
+        { "timestamp": "2026-05-03T00:00:00Z", "priceInEth": 0.000178 },
+        { "timestamp": "2026-05-02T00:00:00Z", "priceInEth": 0.000172 },
+        { "timestamp": "2026-05-01T00:00:00Z", "priceInEth": 0.000170 },
+        { "timestamp": "2026-04-30T00:00:00Z", "priceInEth": 0.000165 },
+        { "timestamp": "2026-04-29T00:00:00Z", "priceInEth": 0.000160 },
+        { "timestamp": "2026-04-28T00:00:00Z", "priceInEth": 0.000158 },
+        { "timestamp": "2026-04-27T00:00:00Z", "priceInEth": 0.000155 },
+        { "timestamp": "2026-04-26T00:00:00Z", "priceInEth": 0.000150 },
+        { "timestamp": "2026-04-25T00:00:00Z", "priceInEth": 0.000148 },
+        { "timestamp": "2026-04-24T00:00:00Z", "priceInEth": 0.000145 },
+        { "timestamp": "2026-04-23T00:00:00Z", "priceInEth": 0.000140 },
+        { "timestamp": "2026-04-22T00:00:00Z", "priceInEth": 0.000138 },
+        { "timestamp": "2026-04-21T00:00:00Z", "priceInEth": 0.000135 },
+        { "timestamp": "2026-04-20T00:00:00Z", "priceInEth": 0.000132 },
+        { "timestamp": "2026-04-19T00:00:00Z", "priceInEth": 0.000130 },
+        { "timestamp": "2026-04-18T00:00:00Z", "priceInEth": 0.000128 },
+        { "timestamp": "2026-04-17T00:00:00Z", "priceInEth": 0.000125 },
+        { "timestamp": "2026-04-16T00:00:00Z", "priceInEth": 0.000122 }
+      ]
+    },
+    "stats": {
+      "stats": {
+        "priceETH": 0.000180,
+        "marketCapETH": 54.0,
+        "liquidityETH": 16.8,
+        "volumeETH": 4.2,
+        "txs": 67,
+        "recentTransactions": [
+          { "type": "Buy", "priceETH": "0.000180", "volumeETH": 1.5, "trader": "0xABCDEF1234567890ABCDEF1234567890ABCDEF12" },
+          { "type": "Sell", "priceETH": "0.000178", "volumeETH": 0.8, "trader": "0x1111111111111111111111111111111111111111" }
+        ]
+      }
+    }
+  },
+  {
+    "brainNumber": "8",
+    "brainAddress": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "hasLiquidity": true,
+    "pairAddress": "0x0d4a11d5EEaaC28EC3F61d100daF4d40471f1853",
+    "chartData": {
+      "pairAddress": "0x0d4a11d5EEaaC28EC3F61d100daF4d40471f1853",
+      "priceHistory": [
+        { "timestamp": "2026-05-05T00:00:00Z", "priceInEth": 0.000042 },
+        { "timestamp": "2026-05-04T00:00:00Z", "priceInEth": 0.000045 },
+        { "timestamp": "2026-05-03T00:00:00Z", "priceInEth": 0.000048 },
+        { "timestamp": "2026-05-02T00:00:00Z", "priceInEth": 0.000044 },
+        { "timestamp": "2026-05-01T00:00:00Z", "priceInEth": 0.000040 },
+        { "timestamp": "2026-04-30T00:00:00Z", "priceInEth": 0.000038 },
+        { "timestamp": "2026-04-29T00:00:00Z", "priceInEth": 0.000042 },
+        { "timestamp": "2026-04-28T00:00:00Z", "priceInEth": 0.000039 },
+        { "timestamp": "2026-04-27T00:00:00Z", "priceInEth": 0.000035 },
+        { "timestamp": "2026-04-26T00:00:00Z", "priceInEth": 0.000037 },
+        { "timestamp": "2026-04-25T00:00:00Z", "priceInEth": 0.000033 },
+        { "timestamp": "2026-04-24T00:00:00Z", "priceInEth": 0.000030 },
+        { "timestamp": "2026-04-23T00:00:00Z", "priceInEth": 0.000032 },
+        { "timestamp": "2026-04-22T00:00:00Z", "priceInEth": 0.000028 },
+        { "timestamp": "2026-04-21T00:00:00Z", "priceInEth": 0.000025 },
+        { "timestamp": "2026-04-20T00:00:00Z", "priceInEth": 0.000027 },
+        { "timestamp": "2026-04-19T00:00:00Z", "priceInEth": 0.000024 },
+        { "timestamp": "2026-04-18T00:00:00Z", "priceInEth": 0.000022 },
+        { "timestamp": "2026-04-17T00:00:00Z", "priceInEth": 0.000020 },
+        { "timestamp": "2026-04-16T00:00:00Z", "priceInEth": 0.000018 }
+      ]
+    },
+    "stats": {
+      "stats": {
+        "priceETH": 0.000042,
+        "marketCapETH": 12.6,
+        "liquidityETH": 3.8,
+        "volumeETH": 0.6,
+        "txs": 14,
+        "recentTransactions": [
+          { "type": "Sell", "priceETH": "0.000042", "volumeETH": 0.4, "trader": "0xFEDCBA9876543210FEDCBA9876543210FEDCBA98" },
+          { "type": "Buy", "priceETH": "0.000040", "volumeETH": 0.2, "trader": "0x0123456789ABCDEF0123456789ABCDEF01234567" }
+        ]
+      }
+    }
+  },
+  {
+    "brainNumber": "9",
+    "brainAddress": "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE",
+    "hasLiquidity": false,
+    "pairAddress": null,
+    "chartData": {},
+    "stats": { "stats": null }
+  },
+  {
+    "brainNumber": "10",
+    "brainAddress": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+    "hasLiquidity": true,
+    "pairAddress": "0xDFC14d2Af169B0D36C4EFF567Ada9b2E0CAE044f",
+    "chartData": {
+      "pairAddress": "0xDFC14d2Af169B0D36C4EFF567Ada9b2E0CAE044f",
+      "priceHistory": [
+        { "timestamp": "2026-05-05T00:00:00Z", "priceInEth": 0.000410 },
+        { "timestamp": "2026-05-04T00:00:00Z", "priceInEth": 0.000400 },
+        { "timestamp": "2026-05-03T00:00:00Z", "priceInEth": 0.000395 },
+        { "timestamp": "2026-05-02T00:00:00Z", "priceInEth": 0.000405 },
+        { "timestamp": "2026-05-01T00:00:00Z", "priceInEth": 0.000390 },
+        { "timestamp": "2026-04-30T00:00:00Z", "priceInEth": 0.000385 },
+        { "timestamp": "2026-04-29T00:00:00Z", "priceInEth": 0.000380 },
+        { "timestamp": "2026-04-28T00:00:00Z", "priceInEth": 0.000375 },
+        { "timestamp": "2026-04-27T00:00:00Z", "priceInEth": 0.000370 },
+        { "timestamp": "2026-04-26T00:00:00Z", "priceInEth": 0.000365 },
+        { "timestamp": "2026-04-25T00:00:00Z", "priceInEth": 0.000360 },
+        { "timestamp": "2026-04-24T00:00:00Z", "priceInEth": 0.000355 },
+        { "timestamp": "2026-04-23T00:00:00Z", "priceInEth": 0.000350 },
+        { "timestamp": "2026-04-22T00:00:00Z", "priceInEth": 0.000345 },
+        { "timestamp": "2026-04-21T00:00:00Z", "priceInEth": 0.000340 },
+        { "timestamp": "2026-04-20T00:00:00Z", "priceInEth": 0.000335 },
+        { "timestamp": "2026-04-19T00:00:00Z", "priceInEth": 0.000330 },
+        { "timestamp": "2026-04-18T00:00:00Z", "priceInEth": 0.000325 },
+        { "timestamp": "2026-04-17T00:00:00Z", "priceInEth": 0.000320 },
+        { "timestamp": "2026-04-16T00:00:00Z", "priceInEth": 0.000315 }
+      ]
+    },
+    "stats": {
+      "stats": {
+        "priceETH": 0.000410,
+        "marketCapETH": 123.0,
+        "liquidityETH": 32.5,
+        "volumeETH": 11.2,
+        "txs": 138,
+        "recentTransactions": [
+          { "type": "Buy", "priceETH": "0.000410", "volumeETH": 4.5, "trader": "0xAA00AA00AA00AA00AA00AA00AA00AA00AA00AA00" },
+          { "type": "Sell", "priceETH": "0.000408", "volumeETH": 2.1, "trader": "0xBB00BB00BB00BB00BB00BB00BB00BB00BB00BB00" },
+          { "type": "Buy", "priceETH": "0.000405", "volumeETH": 1.8, "trader": "0xCC00CC00CC00CC00CC00CC00CC00CC00CC00CC00" }
+        ]
+      }
+    }
+  },
+  {
+    "brainNumber": "11",
+    "brainAddress": "0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e",
+    "hasLiquidity": true,
+    "pairAddress": "0x2fDbAdf3C4D5A8666Bc06645B8358ab803996E28",
+    "chartData": {
+      "pairAddress": "0x2fDbAdf3C4D5A8666Bc06645B8358ab803996E28",
+      "priceHistory": [
+        { "timestamp": "2026-05-05T00:00:00Z", "priceInEth": 0.000072 },
+        { "timestamp": "2026-05-04T00:00:00Z", "priceInEth": 0.000075 },
+        { "timestamp": "2026-05-03T00:00:00Z", "priceInEth": 0.000078 },
+        { "timestamp": "2026-05-02T00:00:00Z", "priceInEth": 0.000070 },
+        { "timestamp": "2026-05-01T00:00:00Z", "priceInEth": 0.000068 },
+        { "timestamp": "2026-04-30T00:00:00Z", "priceInEth": 0.000072 },
+        { "timestamp": "2026-04-29T00:00:00Z", "priceInEth": 0.000065 },
+        { "timestamp": "2026-04-28T00:00:00Z", "priceInEth": 0.000062 },
+        { "timestamp": "2026-04-27T00:00:00Z", "priceInEth": 0.000068 },
+        { "timestamp": "2026-04-26T00:00:00Z", "priceInEth": 0.000060 },
+        { "timestamp": "2026-04-25T00:00:00Z", "priceInEth": 0.000058 },
+        { "timestamp": "2026-04-24T00:00:00Z", "priceInEth": 0.000062 },
+        { "timestamp": "2026-04-23T00:00:00Z", "priceInEth": 0.000055 },
+        { "timestamp": "2026-04-22T00:00:00Z", "priceInEth": 0.000052 },
+        { "timestamp": "2026-04-21T00:00:00Z", "priceInEth": 0.000050 },
+        { "timestamp": "2026-04-20T00:00:00Z", "priceInEth": 0.000048 },
+        { "timestamp": "2026-04-19T00:00:00Z", "priceInEth": 0.000045 },
+        { "timestamp": "2026-04-18T00:00:00Z", "priceInEth": 0.000043 },
+        { "timestamp": "2026-04-17T00:00:00Z", "priceInEth": 0.000040 },
+        { "timestamp": "2026-04-16T00:00:00Z", "priceInEth": 0.000038 }
+      ]
+    },
+    "stats": {
+      "stats": {
+        "priceETH": 0.000072,
+        "marketCapETH": 21.6,
+        "liquidityETH": 6.8,
+        "volumeETH": 1.4,
+        "txs": 28,
+        "recentTransactions": [
+          { "type": "Sell", "priceETH": "0.000072", "volumeETH": 0.6, "trader": "0xDD00DD00DD00DD00DD00DD00DD00DD00DD00DD00" },
+          { "type": "Buy", "priceETH": "0.000070", "volumeETH": 0.9, "trader": "0xEE00EE00EE00EE00EE00EE00EE00EE00EE00EE00" }
+        ]
+      }
+    }
+  },
+  {
+    "brainNumber": "12",
+    "brainAddress": "0xc00e94Cb662C3520282E6f5717214004A7f26888",
+    "hasLiquidity": true,
+    "pairAddress": "0xCFDC4D553F9bcD7Ce429090b7c45b2068BF10Abb",
+    "chartData": {
+      "pairAddress": "0xCFDC4D553F9bcD7Ce429090b7c45b2068BF10Abb",
+      "priceHistory": [
+        { "timestamp": "2026-05-05T00:00:00Z", "priceInEth": 0.000265 },
+        { "timestamp": "2026-05-04T00:00:00Z", "priceInEth": 0.000260 },
+        { "timestamp": "2026-05-03T00:00:00Z", "priceInEth": 0.000258 },
+        { "timestamp": "2026-05-02T00:00:00Z", "priceInEth": 0.000255 },
+        { "timestamp": "2026-05-01T00:00:00Z", "priceInEth": 0.000250 },
+        { "timestamp": "2026-04-30T00:00:00Z", "priceInEth": 0.000252 },
+        { "timestamp": "2026-04-29T00:00:00Z", "priceInEth": 0.000248 },
+        { "timestamp": "2026-04-28T00:00:00Z", "priceInEth": 0.000245 },
+        { "timestamp": "2026-04-27T00:00:00Z", "priceInEth": 0.000240 },
+        { "timestamp": "2026-04-26T00:00:00Z", "priceInEth": 0.000238 },
+        { "timestamp": "2026-04-25T00:00:00Z", "priceInEth": 0.000235 },
+        { "timestamp": "2026-04-24T00:00:00Z", "priceInEth": 0.000230 },
+        { "timestamp": "2026-04-23T00:00:00Z", "priceInEth": 0.000225 },
+        { "timestamp": "2026-04-22T00:00:00Z", "priceInEth": 0.000220 },
+        { "timestamp": "2026-04-21T00:00:00Z", "priceInEth": 0.000218 },
+        { "timestamp": "2026-04-20T00:00:00Z", "priceInEth": 0.000215 },
+        { "timestamp": "2026-04-19T00:00:00Z", "priceInEth": 0.000210 },
+        { "timestamp": "2026-04-18T00:00:00Z", "priceInEth": 0.000208 },
+        { "timestamp": "2026-04-17T00:00:00Z", "priceInEth": 0.000205 },
+        { "timestamp": "2026-04-16T00:00:00Z", "priceInEth": 0.000200 }
+      ]
+    },
+    "stats": {
+      "stats": {
+        "priceETH": 0.000265,
+        "marketCapETH": 79.5,
+        "liquidityETH": 22.1,
+        "volumeETH": 6.8,
+        "txs": 91,
+        "recentTransactions": [
+          { "type": "Buy", "priceETH": "0.000265", "volumeETH": 2.8, "trader": "0xFF00FF00FF00FF00FF00FF00FF00FF00FF00FF00" },
+          { "type": "Buy", "priceETH": "0.000262", "volumeETH": 1.5, "trader": "0x1100110011001100110011001100110011001100" },
+          { "type": "Sell", "priceETH": "0.000260", "volumeETH": 1.9, "trader": "0x2200220022002200220022002200220022002200" },
+          { "type": "Buy", "priceETH": "0.000258", "volumeETH": 0.7, "trader": "0x3300330033003300330033003300330033003300" }
         ]
       }
     }
