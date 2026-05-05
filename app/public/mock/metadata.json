@@ -1,0 +1,56 @@
+{
+  "1": {
+    "name": "AlphaNet",
+    "ticker": "ALPHA",
+    "metaDataUrl": "",
+    "imageUrl": "",
+    "owner": "0xAb5801a7D398351b8bE11C439e05C5B3259aeC9B",
+    "isActivated": true,
+    "tokensClaimed": false
+  },
+  "2": {
+    "name": "NeuralCore",
+    "ticker": "NCORE",
+    "metaDataUrl": "",
+    "imageUrl": "",
+    "owner": "0xde0B295669a9FD93d5F28D9Ec85E40f4cb697BAe",
+    "isActivated": true,
+    "tokensClaimed": true
+  },
+  "3": {
+    "name": "SynthMind",
+    "ticker": "SYNTH",
+    "metaDataUrl": "",
+    "imageUrl": "",
+    "owner": "0x1234567890abcdef1234567890abcdef12345678",
+    "isActivated": true,
+    "tokensClaimed": false
+  },
+  "4": {
+    "name": "DeepNode",
+    "ticker": "DEEP",
+    "metaDataUrl": "",
+    "imageUrl": "",
+    "owner": "0x7777777777777777777777777777777777777777",
+    "isActivated": true,
+    "tokensClaimed": false
+  },
+  "5": {
+    "name": "QuantumAI",
+    "ticker": "QAI",
+    "metaDataUrl": "",
+    "imageUrl": "",
+    "owner": "0x9999999999999999999999999999999999999999",
+    "isActivated": false,
+    "tokensClaimed": false
+  },
+  "6": {
+    "name": "InferNet",
+    "ticker": "INFR",
+    "metaDataUrl": "",
+    "imageUrl": "",
+    "owner": "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+    "isActivated": true,
+    "tokensClaimed": true
+  }
+}

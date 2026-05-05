@@ -4,8 +4,7 @@ export async function fetchLatestBlock(): Promise<{ latestBlock: number }> {
     if (!response.ok) {
       throw new Error("Failed to fetch latest block number");
     }
-    const data = await response.json();
-    return data;
+    return await response.json();
   } catch (error) {
     console.error("Error fetching latest block number:", error);
     return { latestBlock: 0 };

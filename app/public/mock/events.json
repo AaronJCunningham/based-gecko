@@ -1,0 +1,178 @@
+[
+  {
+    "brainNumber": "1",
+    "brainAddress": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+    "hasLiquidity": true,
+    "pairAddress": "0xB4e16d0168e52d35CaCD2c6185b44281Ec28C9Dc",
+    "chartData": {
+      "pairAddress": "0xB4e16d0168e52d35CaCD2c6185b44281Ec28C9Dc",
+      "priceHistory": [
+        { "timestamp": "2025-01-15T00:00:00Z", "priceInEth": 0.000142 },
+        { "timestamp": "2025-01-14T00:00:00Z", "priceInEth": 0.000138 },
+        { "timestamp": "2025-01-13T00:00:00Z", "priceInEth": 0.000135 },
+        { "timestamp": "2025-01-12T00:00:00Z", "priceInEth": 0.000131 },
+        { "timestamp": "2025-01-11T00:00:00Z", "priceInEth": 0.000128 },
+        { "timestamp": "2025-01-10T00:00:00Z", "priceInEth": 0.000125 },
+        { "timestamp": "2025-01-09T00:00:00Z", "priceInEth": 0.000120 },
+        { "timestamp": "2025-01-08T00:00:00Z", "priceInEth": 0.000118 }
+      ]
+    },
+    "stats": {
+      "stats": {
+        "priceETH": 0.000142,
+        "marketCapETH": 42.5,
+        "liquidityETH": 12.8,
+        "volumeETH": 3.2,
+        "txs": 47,
+        "recentTransactions": [
+          { "type": "Buy", "priceETH": "0.000142", "volumeETH": 0.5, "trader": "0xAb5801a7D398351b8bE11C439e05C5B3259aeC9B" },
+          { "type": "Sell", "priceETH": "0.000140", "volumeETH": 0.3, "trader": "0x1234567890abcdef1234567890abcdef12345678" },
+          { "type": "Buy", "priceETH": "0.000139", "volumeETH": 1.2, "trader": "0xde0B295669a9FD93d5F28D9Ec85E40f4cb697BAe" },
+          { "type": "Buy", "priceETH": "0.000138", "volumeETH": 0.8, "trader": "0x2222222222222222222222222222222222222222" },
+          { "type": "Sell", "priceETH": "0.000137", "volumeETH": 0.4, "trader": "0x3333333333333333333333333333333333333333" }
+        ]
+      }
+    }
+  },
+  {
+    "brainNumber": "2",
+    "brainAddress": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+    "hasLiquidity": true,
+    "pairAddress": "0xd3d2E2692501A5c9Ca623199D38826e513033a17",
+    "chartData": {
+      "pairAddress": "0xd3d2E2692501A5c9Ca623199D38826e513033a17",
+      "priceHistory": [
+        { "timestamp": "2025-01-15T00:00:00Z", "priceInEth": 0.000089 },
+        { "timestamp": "2025-01-14T00:00:00Z", "priceInEth": 0.000092 },
+        { "timestamp": "2025-01-13T00:00:00Z", "priceInEth": 0.000085 },
+        { "timestamp": "2025-01-12T00:00:00Z", "priceInEth": 0.000082 },
+        { "timestamp": "2025-01-11T00:00:00Z", "priceInEth": 0.000080 },
+        { "timestamp": "2025-01-10T00:00:00Z", "priceInEth": 0.000078 },
+        { "timestamp": "2025-01-09T00:00:00Z", "priceInEth": 0.000075 },
+        { "timestamp": "2025-01-08T00:00:00Z", "priceInEth": 0.000072 }
+      ]
+    },
+    "stats": {
+      "stats": {
+        "priceETH": 0.000089,
+        "marketCapETH": 26.7,
+        "liquidityETH": 8.4,
+        "volumeETH": 1.9,
+        "txs": 31,
+        "recentTransactions": [
+          { "type": "Buy", "priceETH": "0.000089", "volumeETH": 0.7, "trader": "0x4444444444444444444444444444444444444444" },
+          { "type": "Buy", "priceETH": "0.000088", "volumeETH": 0.2, "trader": "0x5555555555555555555555555555555555555555" },
+          { "type": "Sell", "priceETH": "0.000090", "volumeETH": 1.1, "trader": "0x6666666666666666666666666666666666666666" }
+        ]
+      }
+    }
+  },
+  {
+    "brainNumber": "3",
+    "brainAddress": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+    "hasLiquidity": true,
+    "pairAddress": "0xA478c2975Ab1Ea89e8196811F51A7B7Ade33eB11",
+    "chartData": {
+      "pairAddress": "0xA478c2975Ab1Ea89e8196811F51A7B7Ade33eB11",
+      "priceHistory": [
+        { "timestamp": "2025-01-15T00:00:00Z", "priceInEth": 0.000210 },
+        { "timestamp": "2025-01-14T00:00:00Z", "priceInEth": 0.000205 },
+        { "timestamp": "2025-01-13T00:00:00Z", "priceInEth": 0.000198 },
+        { "timestamp": "2025-01-12T00:00:00Z", "priceInEth": 0.000195 },
+        { "timestamp": "2025-01-11T00:00:00Z", "priceInEth": 0.000190 },
+        { "timestamp": "2025-01-10T00:00:00Z", "priceInEth": 0.000185 },
+        { "timestamp": "2025-01-09T00:00:00Z", "priceInEth": 0.000180 },
+        { "timestamp": "2025-01-08T00:00:00Z", "priceInEth": 0.000175 }
+      ]
+    },
+    "stats": {
+      "stats": {
+        "priceETH": 0.000210,
+        "marketCapETH": 63.0,
+        "liquidityETH": 18.5,
+        "volumeETH": 5.7,
+        "txs": 82,
+        "recentTransactions": [
+          { "type": "Buy", "priceETH": "0.000210", "volumeETH": 2.1, "trader": "0x7777777777777777777777777777777777777777" },
+          { "type": "Sell", "priceETH": "0.000208", "volumeETH": 0.9, "trader": "0x8888888888888888888888888888888888888888" },
+          { "type": "Buy", "priceETH": "0.000207", "volumeETH": 1.5, "trader": "0x9999999999999999999999999999999999999999" },
+          { "type": "Sell", "priceETH": "0.000205", "volumeETH": 0.6, "trader": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" }
+        ]
+      }
+    }
+  },
+  {
+    "brainNumber": "4",
+    "brainAddress": "0x514910771AF9Ca656af840dff83E8264EcF986CA",
+    "hasLiquidity": true,
+    "pairAddress": "0xa2107FA5B38d9bbd2C461D6EDf11B11A50F6b974",
+    "chartData": {
+      "pairAddress": "0xa2107FA5B38d9bbd2C461D6EDf11B11A50F6b974",
+      "priceHistory": [
+        { "timestamp": "2025-01-15T00:00:00Z", "priceInEth": 0.000055 },
+        { "timestamp": "2025-01-14T00:00:00Z", "priceInEth": 0.000053 },
+        { "timestamp": "2025-01-13T00:00:00Z", "priceInEth": 0.000050 },
+        { "timestamp": "2025-01-12T00:00:00Z", "priceInEth": 0.000048 },
+        { "timestamp": "2025-01-11T00:00:00Z", "priceInEth": 0.000052 },
+        { "timestamp": "2025-01-10T00:00:00Z", "priceInEth": 0.000054 },
+        { "timestamp": "2025-01-09T00:00:00Z", "priceInEth": 0.000051 },
+        { "timestamp": "2025-01-08T00:00:00Z", "priceInEth": 0.000049 }
+      ]
+    },
+    "stats": {
+      "stats": {
+        "priceETH": 0.000055,
+        "marketCapETH": 16.5,
+        "liquidityETH": 5.2,
+        "volumeETH": 0.8,
+        "txs": 19,
+        "recentTransactions": [
+          { "type": "Buy", "priceETH": "0.000055", "volumeETH": 0.3, "trader": "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb" },
+          { "type": "Sell", "priceETH": "0.000054", "volumeETH": 0.2, "trader": "0xcccccccccccccccccccccccccccccccccccccccc" }
+        ]
+      }
+    }
+  },
+  {
+    "brainNumber": "5",
+    "brainAddress": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+    "hasLiquidity": false,
+    "pairAddress": null,
+    "chartData": {},
+    "stats": { "stats": null }
+  },
+  {
+    "brainNumber": "6",
+    "brainAddress": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "hasLiquidity": true,
+    "pairAddress": "0x0d4a11d5EEaaC28EC3F61d100daF4d40471f1852",
+    "chartData": {
+      "pairAddress": "0x0d4a11d5EEaaC28EC3F61d100daF4d40471f1852",
+      "priceHistory": [
+        { "timestamp": "2025-01-15T00:00:00Z", "priceInEth": 0.000320 },
+        { "timestamp": "2025-01-14T00:00:00Z", "priceInEth": 0.000315 },
+        { "timestamp": "2025-01-13T00:00:00Z", "priceInEth": 0.000310 },
+        { "timestamp": "2025-01-12T00:00:00Z", "priceInEth": 0.000305 },
+        { "timestamp": "2025-01-11T00:00:00Z", "priceInEth": 0.000300 },
+        { "timestamp": "2025-01-10T00:00:00Z", "priceInEth": 0.000295 },
+        { "timestamp": "2025-01-09T00:00:00Z", "priceInEth": 0.000290 },
+        { "timestamp": "2025-01-08T00:00:00Z", "priceInEth": 0.000285 }
+      ]
+    },
+    "stats": {
+      "stats": {
+        "priceETH": 0.000320,
+        "marketCapETH": 96.0,
+        "liquidityETH": 25.3,
+        "volumeETH": 8.1,
+        "txs": 104,
+        "recentTransactions": [
+          { "type": "Buy", "priceETH": "0.000320", "volumeETH": 3.2, "trader": "0xdddddddddddddddddddddddddddddddddddddddd" },
+          { "type": "Buy", "priceETH": "0.000318", "volumeETH": 1.8, "trader": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee" },
+          { "type": "Sell", "priceETH": "0.000316", "volumeETH": 2.4, "trader": "0xffffffffffffffffffffffffffffffffffffffff" },
+          { "type": "Buy", "priceETH": "0.000315", "volumeETH": 0.9, "trader": "0x1111111111111111111111111111111111111111" }
+        ]
+      }
+    }
+  }
+]

@@ -1,15 +1,15 @@
-type EventData = { 0: string; 1: string; hasLiquidity: boolean }; // Added hasLiquidity to EventData
+type EventData = { 0: string; 1: string; hasLiquidity: boolean };
 type MappedData = {
   brainNumber: string;
   brainAddress: string;
   hasLiquidity: boolean;
-}; // Added hasLiquidity to MappedData
+};
 
 export async function fetchPastEvents(
   eventName: string,
   fromBlock: number,
   toBlock: string
-): Promise<any[]> {
+): Promise<MappedData[]> {
   try {
     const response = await fetch(
       `/api/get-past-events?eventName=${encodeURIComponent(
@@ -24,7 +24,7 @@ export async function fetchPastEvents(
       ({ 0: key1, 1: key2, hasLiquidity }: EventData) => ({
         brainNumber: key1,
         brainAddress: key2,
-        hasLiquidity: hasLiquidity || false, // Default to false if hasLiquidity is undefined
+        hasLiquidity: hasLiquidity || false,
       })
     );
     return mappedData;

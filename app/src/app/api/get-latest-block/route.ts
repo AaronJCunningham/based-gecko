@@ -1,24 +1,13 @@
 import { NextResponse } from "next/server";
-import { ethers } from "ethers";
 
 export async function GET() {
-  const alchemyApiKey = process.env.ALCHEMY_API_KEY; // Secure server-side variable
-  if (!alchemyApiKey) {
-    return NextResponse.json({ error: "Missing API key" }, { status: 500 });
-  }
-
-  const provider = new ethers.JsonRpcProvider(
-    `https://eth-mainnet.g.alchemy.com/v2/${alchemyApiKey}`
-  );
-
   try {
-    const latestBlock = await provider.getBlockNumber();
-    console.log("latest block", latestBlock);
-    return NextResponse.json({ latestBlock });
+    // In production this would call Alchemy's eth_blockNumber RPC
+    // Using static demo data for portfolio demonstration
+    return NextResponse.json({ latestBlock: 21630000 });
   } catch (error) {
-    console.error("Error fetching latest block number:", error);
     return NextResponse.json(
-      { error: "Failed to fetch latest block number" },
+      { error: "Failed to fetch latest block" },
       { status: 500 }
     );
   }

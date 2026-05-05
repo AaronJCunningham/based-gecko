@@ -1,21 +1,17 @@
 export async function fetchUniswapStats(contractAddress: string) {
-  const baseUrl = "/api/get-uniswap-stats";
-  const url = `${baseUrl}?address=${contractAddress}`;
+  const url = `/api/get-uniswap-stats?address=${contractAddress}`;
 
   try {
     const response = await fetch(url, {
       method: "GET",
-      headers: {
-        "Content-Type": "application/json",
-      },
+      headers: { "Content-Type": "application/json" },
     });
 
     if (!response.ok) {
       throw new Error(`Failed to fetch stats: ${response.statusText}`);
     }
 
-    const data = await response.json();
-    return data;
+    return await response.json();
   } catch (error) {
     console.error("Error fetching Uniswap stats:", error);
     throw error;

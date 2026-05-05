@@ -1,42 +1,49 @@
-import { BrainEvent, BrainStats } from "@/store";
-
-type EventData = {
-  0: string;
-  1: string;
-  hasLiquidity: boolean;
-  pairAddress: string;
-  chartData: {
-    pairAddress?: string;
-    priceHistory?: { timestamp: string; priceInEth: number }[];
-  };
-  stats?: { stats?: BrainStats };
-};
-
-const HTTP_API_URL =
-  process.env.NODE_ENV === "development"
-    ? "http://localhost:3001"
-    : "https://braingecko-server-production-47f2.up.railway.app";
+import { BrainEvent } from "@/store";
 
 export async function fetchEventsAndPools(): Promise<BrainEvent[]> {
   try {
-    const response = await fetch(`${HTTP_API_URL}/api/events`);
+    const response = await fetch("/api/get-past-events?eventName=BrainActivated&fromBlock=0&toBlock=latest");
     if (!response.ok) {
       throw new Error("Failed to fetch events");
     }
-    const data: EventData[] = await response.json();
+    const { events } = await response.json();
 
-    const mappedData: BrainEvent[] = data.map(
-      ({ 0: key1, 1: key2, hasLiquidity, pairAddress, chartData, stats }) => ({
-        brainNumber: key1,
-        brainAddress: key2,
-        hasLiquidity: hasLiquidity || false,
-        pairAddress: pairAddress || null,
-        chartData: chartData || {},
-        stats: stats || { stats: undefined },
+    // Enrich with chart data and stats
+    const enriched: BrainEvent[] = await Promise.all(
+      events.map(async (event: any) => {
+        const brainNumber = event[0] || event.brainNumber;
+        const brainAddress = event[1] || event.brainAddress;
+        const hasLiquidity = event.hasLiquidity || false;
+
+        let chartData = {};
+        let stats: BrainEvent["stats"] = { stats: undefined };
+
+        if (hasLiquidity) {
+          try {
+            const [chartRes, statsRes] = await Promise.all([
+              fetch(`/api/get-uniswap-chart?address=${brainAddress}`),
+              fetch(`/api/get-uniswap-stats?address=${brainAddress}`),
+            ]);
+
+            if (chartRes.ok) chartData = await chartRes.json();
+            if (statsRes.ok) stats = await statsRes.json();
+          } catch {
+            // Continue with empty data if enrichment fails
+          }
+        }
+
+        return {
+          brainNumber,
+          brainAddress,
+          hasLiquidity,
+          pairAddress: chartData && "pairAddress" in chartData ? (chartData as any).pairAddress : null,
+          chartData,
+          stats,
+        };
       })
     );
 
-    return mappedData;
+    return enriched;
   } catch (error) {
     console.error("Error fetching events:", error);
     return [];
