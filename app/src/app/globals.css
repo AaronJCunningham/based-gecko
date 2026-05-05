@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #030712;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #030712;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: monospace, sans-serif;
+}
+
+.line-left {
+  border-left: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.line-right {
+  border-right: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.line-bottom {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.line-horizontal {
+  width: 100%;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.25);
+  margin: 2rem 0;
+}
+
+@keyframes flicker {
+  0%,
+  95%,
+  100% {
+    opacity: 1; /* Solid most of the time */
+  }
+  96% {
+    opacity: 0.4; /* Quick subtle dimming */
+  }
+  97% {
+    opacity: 0; /* Very brief complete disappearance */
+  }
+  98% {
+    opacity: 0.7; /* Partial fade back in */
+  }
+  99% {
+    opacity: 1; /* Back to solid */
+  }
+}
+
+.animate-flicker {
+  animation-name: flicker;
+}
+
+.press-start {
+  font-family: "Press Start 2P", monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-shadow: 0px 0px 5px rgba(0, 255, 255, 0.3);
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(7, 7, 7);
+  border-radius: 2px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(44, 44, 44);
+  border-radius: 2px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #222222;
+}

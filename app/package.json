@@ -1,0 +1,43 @@
+{
+  "name": "based-gecko-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "vitest",
+    "test:run": "vitest run"
+  },
+  "dependencies": {
+    "@react-three/fiber": "^8.17.14",
+    "ethers": "^6.13.4",
+    "gsap": "^3.12.7",
+    "next": "14.2.8",
+    "react": "^18",
+    "react-device-detect": "^2.2.3",
+    "react-dom": "^18",
+    "react-draggable": "^4.4.6",
+    "react-icons": "^5.4.0",
+    "recharts": "^2.15.1",
+    "socket.io-client": "^4.8.1",
+    "three": "^0.173.0",
+    "valtio": "^2.1.2"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@vitejs/plugin-react": "^6.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.8",
+    "jsdom": "^29.1.1",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5",
+    "vitest": "^4.1.5"
+  }
+}

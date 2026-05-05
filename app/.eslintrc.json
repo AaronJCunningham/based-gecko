@@ -1,0 +1,19 @@
+{
+  "extends": ["next/core-web-vitals", "next/typescript"],
+  "rules": {
+    "@typescript-eslint/ban-ts-comment": [
+      "error",
+      {
+        "ts-ignore": false,
+        "ts-expect-error": "allow-with-description",
+        "minimumDescriptionLength": 3
+      }
+    ],
+    "@typescript-eslint/no-unused-vars": [
+      "warn",
+      { "vars": "all", "args": "after-used", "ignoreRestSiblings": true }
+    ],
+    "react/no-unescaped-entities": "off",
+    "@typescript-eslint/no-explicit-any": "off"
+  }
+}
